@@ -49,3 +49,5 @@ plt.ylabel("loss")
 plt.ylim(0, 2.5)
 plt.legend()
 plt.show()
+
+# differeces of loss between std(0.01) and Xavier, He was small since the network was only 2 layer net, 5 layer net showed much more difference in loss
